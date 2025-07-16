@@ -11,7 +11,7 @@ export default function handler(req, res) {
     });
   } else {
     res.writeHead(302, {
-      Location: 'https://m.youtube.com/watch?app=desktop&v=uZveL5vKG9A'
+      Location: 'https://m.youtube.com/watch?v=uZveL5vKG9A'
     });
   }
 
