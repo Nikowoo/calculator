@@ -7,11 +7,11 @@ export default function handler(req, res) {
 
   if (isDiscord || isFacebook || isInstagram) {
     res.writeHead(302, {
-      Location: 'https://files.catbox.moe/mq8q15.gif'
+      Location: 'https://files.catbox.moe/zrn081.png'
     });
   } else {
     res.writeHead(302, {
-      Location: 'https://m.youtube.com/watch?v=uZveL5vKG9A'
+      Location: 'youtube://uZveL5vKG9A'
     });
   }
 
