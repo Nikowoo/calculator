@@ -3,7 +3,7 @@ export default function handler(req, res) {
 
   if (userAgent.includes("Discordbot/")) {
     res.writeHead(302, {
-      Location: 'https://i.postimg.cc/8zdX5fNm/image.png'
+      Location: 'https://i.postimg.cc/SKFXZj9K/quaver.gif'
     });
   } else {
     res.writeHead(302, {
