@@ -1,6 +1,6 @@
 export default function handler(req, res) {
   const userAgent = req.headers['user-agent'] || '';
-  if (userAgent.includes('discordbot/')) {
+  if (userAgent.includes('Discordbot/')) {
     res.writeHead(302, {
       Location: 'https://timeful.neocities.org/ggss.png',
     });
