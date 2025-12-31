@@ -3,7 +3,7 @@ export default function handler(req, res) {
 
   if (userAgent.includes("Discordbot/")) {
     res.writeHead(302, {
-      Location: 'https://i.postimg.cc/C1CxrNgN/Screenshot-2025-12-31-075512.png'
+      Location: 'https://i.postimg.cc/8zdX5fNm/image.png'
     });
   } else {
     res.writeHead(302, {
